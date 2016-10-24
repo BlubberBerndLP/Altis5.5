@@ -1,0 +1,17 @@
+extDB2: Version: 63
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 32 Cores, Setting up 4 Worker Threads (config settings)
+
+
+[22:00:49:762 +02:00] [Thread 19524] extDB2: Database Type: MySQL
+[22:00:49:864 +02:00] [Thread 19524] extDB2: Database Exception Error: Connection attempt failed: Access denied for user 'ni383431_12_DB'@'46.251.235.26' (using password: YES)
