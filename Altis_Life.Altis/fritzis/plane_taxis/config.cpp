@@ -8,7 +8,7 @@
 class Maverick_PlaneTaxis {
 	class Costs {
 		pricePerMeter = 2; // Given in dollars
-		moneyVariable = "life_atmbank";
+		moneyVariable = "life_atmcash";
 	};
 
 	class Messages {

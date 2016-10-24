@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=2058;
+		nextID=2060;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3091.8574,193.13274,12878.014};
+		pos[]={3278.0195,193.13274,13170.771};
 		dir[]={0.85150653,-0.44418868,0.27872428};
 		up[]={0.42223051,0.89588946,0.13820988};
 		aside[]={0.31109634,3.206369e-007,-0.9503997};
@@ -583,7 +583,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1824;
+		items=1825;
 		class Item0
 		{
 			dataType="Marker";
@@ -1069,7 +1069,7 @@ class Mission
 			name="safezone_athira";
 			type="mil_dot";
 			colorName="ColorPink";
-			angle=224.37886;
+			angle=224.37885;
 			id=50;
 		};
 		class Item50
@@ -1139,7 +1139,7 @@ class Mission
 			position[]={3022.6758,21.586065,12519.895};
 			name="civ_car_start";
 			type="Empty";
-			angle=183.94719;
+			angle=183.94717;
 			id=57;
 		};
 		class Item57
@@ -1148,7 +1148,7 @@ class Mission
 			position[]={3021.3735,21.842529,12524.723};
 			name="civ_car_start2";
 			type="Empty";
-			angle=177.97061;
+			angle=177.9706;
 			id=58;
 			atlOffset=-0.189991;
 		};
@@ -1316,7 +1316,7 @@ class Mission
 			name="atm_marker_1_4_3";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=1.6818157;
+			angle=1.6818156;
 			id=75;
 		};
 		class Item75
@@ -1701,7 +1701,7 @@ class Mission
 			text="Teddy's Tauchshop";
 			type="mil_box";
 			colorName="ColorOrange";
-			angle=215.54387;
+			angle=215.54385;
 			id=115;
 		};
 		class Item114
@@ -2027,7 +2027,7 @@ class Mission
 			text="Zulassungsstelle";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=0.87291342;
+			angle=0.87291336;
 			id=148;
 		};
 		class Item147
@@ -2374,7 +2374,7 @@ class Mission
 			text="Teddys Tauchshop";
 			type="mil_box";
 			colorName="ColorOrange";
-			angle=215.54387;
+			angle=215.54385;
 			id=182;
 		};
 		class Item181
@@ -2532,7 +2532,7 @@ class Mission
 			name="atm_marker_4_1";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=221.0291;
+			angle=221.02908;
 			id=197;
 		};
 		class Item196
@@ -2890,7 +2890,7 @@ class Mission
 			position[]={22151.953,3.3612719,14437.795};
 			name="jail_marker";
 			type="Empty";
-			angle=28.449909;
+			angle=28.449907;
 			id=233;
 		};
 		class Item232
@@ -2901,7 +2901,7 @@ class Mission
 			text="Justizvollzugsanstalt Altis";
 			type="mil_dot";
 			colorName="Color4_FD_F";
-			angle=28.449909;
+			angle=28.449907;
 			id=234;
 		};
 		class Item233
@@ -3017,7 +3017,7 @@ class Mission
 			name="atm_marker_4_3";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=223.43306;
+			angle=223.43304;
 			id=247;
 		};
 		class Item245
@@ -3031,7 +3031,7 @@ class Mission
 			fillName="Horizontal";
 			a=25;
 			b=40;
-			angle=225.47501;
+			angle=225.47499;
 			id=248;
 		};
 		class Item246
@@ -9984,7 +9984,7 @@ class Mission
 			};
 			id=624;
 			type="C_Offroad_01_repair_F";
-			atlOffset=-0.00013160706;
+			atlOffset=-0.007194519;
 		};
 		class Item622
 		{
@@ -10110,7 +10110,7 @@ class Mission
 			};
 			id=631;
 			type="C_Quadbike_01_F";
-			atlOffset=8.7738037e-005;
+			atlOffset=-0.0011386871;
 		};
 		class Item629
 		{
@@ -10129,7 +10129,7 @@ class Mission
 			};
 			id=632;
 			type="C_Quadbike_01_F";
-			atlOffset=8.5830688e-005;
+			atlOffset=-0.0012359619;
 		};
 		class Item630
 		{
@@ -10148,7 +10148,7 @@ class Mission
 			};
 			id=633;
 			type="C_Quadbike_01_F";
-			atlOffset=8.5830688e-005;
+			atlOffset=-0.00033378601;
 		};
 		class Item631
 		{
@@ -33011,14 +33011,14 @@ class Mission
 					};
 					id=1879;
 					type="C_man_p_beggar_F_afro";
-					atlOffset=8.5830688e-005;
+					atlOffset=8.7738037e-005;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=1878;
-			atlOffset=8.5830688e-005;
+			atlOffset=8.7738037e-005;
 		};
 		class Item1768
 		{
@@ -35983,6 +35983,62 @@ class Mission
 			type="mil_dot";
 			id=2057;
 			atlOffset=185.7139;
+		};
+		class Item1824
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11442.997,23.759495,11509.413};
+						angles[]={6.272521,2.1745012,6.272521};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; _a = [this] spawn mav_planetaxi_fnc_initializeNPC; this setVariable[""realname"",""Pilot Heinz""];";
+					};
+					id=2059;
+					type="C_man_1";
+					atlOffset=0.00014686584;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2058;
+			atlOffset=0.00014686584;
 		};
 	};
 	class Connections
