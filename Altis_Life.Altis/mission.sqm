@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=2073;
+		nextID=2084;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11482.121,141.825,11400.963};
-		dir[]={-0.27327284,-0.59401041,0.7566222};
-		up[]={-0.20178446,0.80445635,0.55868852};
-		aside[]={0.9405362,-6.393384e-008,0.33969814};
+		pos[]={11713.262,18.537216,11328.914};
+		dir[]={-0.80411798,-0.37546048,0.46092224};
+		up[]={-0.32574835,0.92683393,0.18672006};
+		aside[]={0.4973053,-2.4054316e-007,0.86758733};
 	};
 };
 binarizationWanted=0;
@@ -125,13 +125,14 @@ addons[]=
 	"A3_Structures_F_Civ_Offices",
 	"A3_Characters_F",
 	"A3_Characters_F_Exp_Civil",
-	"A3_Modules_F"
+	"A3_Modules_F",
+	"A3_Boat_F_Boat_Transport_01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=26;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -304,6 +305,13 @@ class AddonsMetaData
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item25
+		{
+			className="A3_Boat_F";
+			name="Arma 3 Alpha - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
@@ -583,7 +591,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1834;
+		items=1841;
 		class Item0
 		{
 			dataType="Marker";
@@ -1069,7 +1077,7 @@ class Mission
 			name="safezone_athira";
 			type="mil_dot";
 			colorName="ColorPink";
-			angle=224.37881;
+			angle=224.37874;
 			id=50;
 		};
 		class Item50
@@ -1139,7 +1147,7 @@ class Mission
 			position[]={3022.6758,21.586065,12519.895};
 			name="civ_car_start";
 			type="Empty";
-			angle=183.94714;
+			angle=183.94711;
 			id=57;
 		};
 		class Item57
@@ -1148,7 +1156,7 @@ class Mission
 			position[]={3021.3735,21.842529,12524.723};
 			name="civ_car_start2";
 			type="Empty";
-			angle=177.97057;
+			angle=177.97052;
 			id=58;
 			atlOffset=-0.189991;
 		};
@@ -1316,7 +1324,7 @@ class Mission
 			name="atm_marker_1_4_3";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=1.6818154;
+			angle=1.6818153;
 			id=75;
 		};
 		class Item75
@@ -2027,7 +2035,7 @@ class Mission
 			text="Zulassungsstelle";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=0.87291324;
+			angle=0.87291294;
 			id=148;
 		};
 		class Item147
@@ -2890,7 +2898,7 @@ class Mission
 			position[]={22151.953,3.3612719,14437.795};
 			name="jail_marker";
 			type="Empty";
-			angle=28.449903;
+			angle=28.449894;
 			id=233;
 		};
 		class Item232
@@ -2901,7 +2909,7 @@ class Mission
 			text="Justizvollzugsanstalt Altis";
 			type="mil_dot";
 			colorName="Color4_FD_F";
-			angle=28.449903;
+			angle=28.449894;
 			id=234;
 		};
 		class Item233
@@ -3017,7 +3025,7 @@ class Mission
 			name="atm_marker_4_3";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=223.43301;
+			angle=223.43297;
 			id=247;
 		};
 		class Item245
@@ -3031,7 +3039,7 @@ class Mission
 			fillName="Horizontal";
 			a=25;
 			b=40;
-			angle=225.47496;
+			angle=225.47488;
 			id=248;
 		};
 		class Item246
@@ -29757,7 +29765,6 @@ class Mission
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_1";
 						description="Polizeibeamter -  Staat Altis";
-						isPlayer=1;
 						isPlayable=1;
 					};
 					id=1689;
@@ -36315,6 +36322,118 @@ class Mission
 			colorName="ColorRed";
 			id=2072;
 			atlOffset=-0.025327682;
+		};
+		class Item1834
+		{
+			dataType="Marker";
+			position[]={11658.465,0.14550781,11354.02};
+			name="spawn_first_1";
+			type="Empty";
+			angle=302.77417;
+			id=2075;
+			atlOffset=-0.067099571;
+		};
+		class Item1835
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11669.316,1.2301461,11348.563};
+				angles[]={0,5.5549641,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this allowDamage false; this setVehicleLock ""LOCKED"";this enableSimulation false;";
+			};
+			id=2078;
+			type="B_Lifeboat";
+			atlOffset=1.3516313;
+		};
+		class Item1836
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11656.453,1.2407109,11355.144};
+				angles[]={0,5.2815185,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=2079;
+			type="Sign_Arrow_Direction_F";
+			atlOffset=0.5557946;
+		};
+		class Item1837
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11633.169,6.4017243,11368.26};
+				angles[]={0,5.3961077,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=2080;
+			type="Sign_Arrow_Direction_F";
+			atlOffset=0.99962187;
+		};
+		class Item1838
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11599.555,11.014677,11392.012};
+				angles[]={0,5.3201208,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=2081;
+			type="Sign_Arrow_Direction_F";
+			atlOffset=0.900033;
+		};
+		class Item1839
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11557.488,16.758429,11423.801};
+				angles[]={0,5.3539186,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=2082;
+			type="Sign_Arrow_Direction_F";
+			atlOffset=0.7646656;
+		};
+		class Item1840
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11492.68,22.250462,11472.714};
+				angles[]={0,5.3543458,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=2083;
+			type="Sign_Arrow_Direction_F";
+			atlOffset=0.84051704;
 		};
 	};
 	class Connections
