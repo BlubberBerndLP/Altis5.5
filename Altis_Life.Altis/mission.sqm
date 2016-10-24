@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=2060;
+		nextID=2073;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3278.0195,193.13274,13170.771};
-		dir[]={0.85150653,-0.44418868,0.27872428};
-		up[]={0.42223051,0.89588946,0.13820988};
-		aside[]={0.31109634,3.206369e-007,-0.9503997};
+		pos[]={11482.121,141.825,11400.963};
+		dir[]={-0.27327284,-0.59401041,0.7566222};
+		up[]={-0.20178446,0.80445635,0.55868852};
+		aside[]={0.9405362,-6.393384e-008,0.33969814};
 	};
 };
 binarizationWanted=0;
@@ -559,8 +559,8 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Altis Life RPG neue Map AltisFunFactory";
-		overviewText="Altis Life RPG 4.0";
+		briefingName="meinAltisRPG";
+		overviewText="Altis Life RPG 5.5";
 		startWeather=0.099999994;
 		startWind=0.29999998;
 		startWindDir=20;
@@ -583,7 +583,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1825;
+		items=1834;
 		class Item0
 		{
 			dataType="Marker";
@@ -1069,7 +1069,7 @@ class Mission
 			name="safezone_athira";
 			type="mil_dot";
 			colorName="ColorPink";
-			angle=224.37885;
+			angle=224.37881;
 			id=50;
 		};
 		class Item50
@@ -1139,7 +1139,7 @@ class Mission
 			position[]={3022.6758,21.586065,12519.895};
 			name="civ_car_start";
 			type="Empty";
-			angle=183.94717;
+			angle=183.94714;
 			id=57;
 		};
 		class Item57
@@ -1148,7 +1148,7 @@ class Mission
 			position[]={3021.3735,21.842529,12524.723};
 			name="civ_car_start2";
 			type="Empty";
-			angle=177.9706;
+			angle=177.97057;
 			id=58;
 			atlOffset=-0.189991;
 		};
@@ -1316,7 +1316,7 @@ class Mission
 			name="atm_marker_1_4_3";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=1.6818156;
+			angle=1.6818154;
 			id=75;
 		};
 		class Item75
@@ -2027,7 +2027,7 @@ class Mission
 			text="Zulassungsstelle";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=0.87291336;
+			angle=0.87291324;
 			id=148;
 		};
 		class Item147
@@ -2858,12 +2858,12 @@ class Mission
 		class Item228
 		{
 			dataType="Marker";
-			position[]={999.62244,-0.0047388799,29647.688};
-			name="TeamSpeak: ts.altisliferpg.de";
-			text="TeamSpeak: ts.altisliferpg.de";
+			position[]={999.62201,-1.5651928e-015,29647.688};
+			name="TeamSpeak: ts.meinaltis.de";
+			text="TeamSpeak: ts.meinaltis.de";
 			type="flag_Germany";
 			id=230;
-			atlOffset=185.96526;
+			atlOffset=185.97;
 		};
 		class Item229
 		{
@@ -2890,7 +2890,7 @@ class Mission
 			position[]={22151.953,3.3612719,14437.795};
 			name="jail_marker";
 			type="Empty";
-			angle=28.449907;
+			angle=28.449903;
 			id=233;
 		};
 		class Item232
@@ -2901,7 +2901,7 @@ class Mission
 			text="Justizvollzugsanstalt Altis";
 			type="mil_dot";
 			colorName="Color4_FD_F";
-			angle=28.449907;
+			angle=28.449903;
 			id=234;
 		};
 		class Item233
@@ -3017,7 +3017,7 @@ class Mission
 			name="atm_marker_4_3";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=223.43304;
+			angle=223.43301;
 			id=247;
 		};
 		class Item245
@@ -3031,7 +3031,7 @@ class Mission
 			fillName="Horizontal";
 			a=25;
 			b=40;
-			angle=225.47499;
+			angle=225.47496;
 			id=248;
 		};
 		class Item246
@@ -3066,12 +3066,12 @@ class Mission
 		class Item249
 		{
 			dataType="Marker";
-			position[]={995.14886,-0.002607431,29280.176};
-			name="Created by: www.altisliferpg.de";
-			text="Created by: www.altisliferpg.de";
+			position[]={995.14899,-5.0392732e-011,29280.176};
+			name="Created by: www.meinaltis.de";
+			text="Created by: www.meinaltis.de";
 			type="flag_Germany";
 			id=252;
-			atlOffset=185.96739;
+			atlOffset=185.97;
 		};
 		class Item250
 		{
@@ -36039,6 +36039,282 @@ class Mission
 			};
 			id=2058;
 			atlOffset=0.00014686584;
+		};
+		class Item1825
+		{
+			dataType="Marker";
+			position[]={11444.19,-3.2538753e-007,11509.918};
+			name="pilot_1";
+			text="Taxi-Pilot";
+			type="mil_dot";
+			colorName="ColorRed";
+			id=2060;
+			atlOffset=-23.751095;
+		};
+		class Item1826
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14621.769,17.911438,16710.758};
+						angles[]={0,2.1745057,0};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; _a = [this] spawn mav_planetaxi_fnc_initializeNPC; this setVariable[""realname"",""Pilot Sebb""];";
+					};
+					id=2062;
+					type="C_man_1";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2061;
+		};
+		class Item1827
+		{
+			dataType="Marker";
+			position[]={14623.235,17.91,16709.619};
+			name="pilot_2";
+			text="Taxi-Pilot";
+			type="mil_dot";
+			colorName="ColorRed";
+			id=2063;
+		};
+		class Item1828
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={21043.68,26.884769,7101.5366};
+						angles[]={0.0079936078,2.1745057,6.2020273};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; _a = [this] spawn mav_planetaxi_fnc_initializeNPC; this setVariable[""realname"",""Pilot Lennart""];";
+					};
+					id=2065;
+					type="C_man_1";
+					atlOffset=-0.021999359;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2064;
+			atlOffset=-0.021999359;
+		};
+		class Item1829
+		{
+			dataType="Marker";
+			position[]={21045.148,26.775076,7100.3984};
+			name="pilot_3";
+			text="Taxi-Pilot";
+			type="mil_dot";
+			colorName="ColorRed";
+			id=2066;
+			atlOffset=-0.025327682;
+		};
+		class Item1830
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23096.225,3.1694388,18408.277};
+						angles[]={0,2.1745057,0};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; _a = [this] spawn mav_planetaxi_fnc_initializeNPC; this setVariable[""realname"",""Pilot Schleidi""];";
+					};
+					id=2068;
+					type="C_man_1";
+					atlOffset=-0.022000074;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2067;
+			atlOffset=-0.022000074;
+		};
+		class Item1831
+		{
+			dataType="Marker";
+			position[]={23097.693,3.1646724,18407.141};
+			name="pilot_4";
+			text="Taxi-Pilot";
+			type="mil_dot";
+			colorName="ColorRed";
+			id=2069;
+			atlOffset=-0.025327682;
+		};
+		class Item1832
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={26823.879,23.925154,24568.266};
+						angles[]={0.018675024,2.1745057,0.018675024};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; _a = [this] spawn mav_planetaxi_fnc_initializeNPC; this setVariable[""realname"",""Pilot Tek""];";
+					};
+					id=2071;
+					type="C_man_1";
+					atlOffset=-0.022001266;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2070;
+			atlOffset=-0.022001266;
+		};
+		class Item1833
+		{
+			dataType="Marker";
+			position[]={26825.348,23.968071,24567.129};
+			name="pilot_5";
+			text="Taxi-Pilot";
+			type="mil_dot";
+			colorName="ColorRed";
+			id=2072;
+			atlOffset=-0.025327682;
 		};
 	};
 	class Connections
